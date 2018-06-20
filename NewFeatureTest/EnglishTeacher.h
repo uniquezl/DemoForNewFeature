@@ -8,6 +8,6 @@
 
 #import "Teacher.h"
 
-@interface EnglishTeacher : Teacher
+@interface EnglishTeacher<T> : Teacher
 
 @end

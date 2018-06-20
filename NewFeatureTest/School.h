@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface School : NSObject
+@interface School<__contravariant T> : NSObject
+
+@property (nonatomic, strong) T obj;
+@property (nonatomic, strong) NSMutableArray <T> *sch;
+
+- (instancetype)init;
+- (void)addPeople:(T)people;
+- (T)retair:(T)people;
 
 @end

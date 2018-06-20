@@ -8,6 +8,9 @@
 
 #import "People.h"
 
-@interface Teacher : People
+@interface Teacher<__contravariant T> : People
 
+@property (nonatomic, copy)NSString *aoe;
+
+- (void)teach;
 @end

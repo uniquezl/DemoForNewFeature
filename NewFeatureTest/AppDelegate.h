@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class School;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

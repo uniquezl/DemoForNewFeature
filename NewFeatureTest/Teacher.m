@@ -10,4 +10,9 @@
 
 @implementation Teacher
 
+- (void)teach
+{
+    
+}
+
 @end

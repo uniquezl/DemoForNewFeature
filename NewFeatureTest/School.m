@@ -9,5 +9,22 @@
 #import "School.h"
 
 @implementation School
+- (instancetype)init
+{
+    if (self = [super init])
+    {
+        _sch = [[NSMutableArray alloc] init];
+        
+    }
+    return self;
+}
+- (void)addPeople:(id)people
+{
+    [self.sch addObject:people];
+}
+- (id)retair:(id)people
+{
+    return [people class];
+}
 
 @end
